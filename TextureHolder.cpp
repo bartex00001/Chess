@@ -1,10 +1,9 @@
 #include "TextureHolder.h"
 TextureHolder::TextureHolder()
 {
-	//wPawn, wKnight, wBishop, wRook, wQueen, wKing, bPawn, bKnight, bBishop, bRook, bQueen, bKing, bg
+	//wPawn, wKnight, wBishop, wRook, wQueen, wKing, bPawn, bKnight, bBishop, bRook, bQueen, bKing,
 	if (!wPawn.loadFromFile("wPawn.png"))
 		exit(1);
-	/*
 	if (!wKnight.loadFromFile("EMPTY.png"))
 		exit(1);
 	if (!wBishop.loadFromFile("O.png"))
@@ -26,9 +25,6 @@ TextureHolder::TextureHolder()
 	if (!bQueen.loadFromFile("X.png"))
 		exit(1);
 	if (!bKing.loadFromFile("X.png"))
-		exit(1);
-	*/
-	if (!bg.loadFromFile("bg.png"))
 		exit(1);
 
 }
