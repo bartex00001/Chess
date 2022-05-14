@@ -4,7 +4,7 @@ class TextureHolder
 {
 public:
 	TextureHolder();
-	sf::Texture wPawn, wKnight, wBishop, wRook, wQueen, wKing, bPawn, bKnight, bBishop, bRook, bQueen, bKing, bg;
+	sf::Texture wPawn, wKnight, wBishop, wRook, wQueen, wKing, bPawn, bKnight, bBishop, bRook, bQueen, bKing;
 
 };
 
