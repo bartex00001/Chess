@@ -16,11 +16,7 @@ float Square::getPositionx() {
 }
 
 float Square::getPositiony() {
-	return(positiony);
-}
-
-void Square::setPID(unsigned short x) {
-	this->PID = x;
+	return(positiony); 
 }
 
 bool Square::Isclicked(sf::Vector2f coords) {
@@ -46,11 +42,8 @@ void Square::setMark(bool isSelected) {
 		fld.setOutlineThickness(0);
 }
 
-unsigned short Square::getPID() {
-	return(PID);
-}
-
 void Square::bindPiece(Piece* piece) {
 	pce = piece;
+
 }
 
